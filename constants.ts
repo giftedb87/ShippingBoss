@@ -53,17 +53,18 @@ export const MOCK_TRACKING_DATA: { [key: string]: TrackingDetails } = {
   },
   'SB6666667': {
     id: 'SB6666667',
-    status: TrackingStatus.InTransit,
-    estimatedDelivery: '15 August, 2025',
+    status: TrackingStatus.Delivered,
+    estimatedDelivery: '02 September, 2025',
     origin: 'New York, USA',
     destination: 'Benin City, Nigeria',
-    currentLocation: { lat: 6.3391, lng: 5.6139 },
-    mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253805.8562137542!2d5.462372076013233!3d6.340079979703443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1040d17615962c4f%3A0x6284883cccf13eb!2sBenin%20City%2C%20Edo%2C%20Nigeria!5e0!3m2!1sen!2sus!4v1672855555555!5m2!1sen!2sus',
+    currentLocation: { lat: 6.5127, lng: 5.6052 },
+    mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.069796781297!2d5.602568074992903!3d6.512683193481229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1040d3c65c156b0b%3A0x1b1959a768e142d7!2sUniversity%20of%20Benin!5e0!3m2!1sen!2sus!4v1721327150165!5m2!1sen!2sus',
     history: [
         { date: '10 Aug 2025', time: '10:00', location: 'New York, USA', status: 'Package received at origin facility' },
         { date: '10 Aug 2025', time: '19:45', location: 'JFK Airport, USA', status: 'Departed from origin country' },
         { date: '12 Aug 2025', time: '08:15', location: 'Lagos, Nigeria', status: 'Arrived at destination country hub' },
         { date: '13 Aug 2025', time: '11:30', location: 'Lagos, Nigeria', status: 'In transit to final destination (Benin)' },
+        { date: '02 Sep 2025', time: '22:00', location: 'Benin City, Nigeria', status: 'Delivered successfully' },
     ],
   },
 };
